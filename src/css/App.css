@@ -1,0 +1,15 @@
+.app {
+    height: 100vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    display: grid;
+    grid-template-rows: 64px 1fr 90px;
+    grid-template-areas: "header" "content" "nav";
+}
+
+content.content { grid-area: content; }
+
+header.header { grid-area: "header"; }
+
+nav.nav { grid-area: "nav";}

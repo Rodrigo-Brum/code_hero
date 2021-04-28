@@ -1,0 +1,24 @@
+input {
+    margin-left: 113px;
+    margin-top: 8px;
+    width: 295px;
+    height: 32px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    font: italic 14px PT Sans Caption, sans-serif;
+    color: #8E8E8E;
+    background-image: url('../assets/imgs/search.svg');
+    background-position-y: center;
+    background-position: 95%;
+    transition: 1s;
+}
+
+@media(max-width: 700px) {
+    input {
+        margin-left: 24px;
+        margin-right: 24px;
+        transition: 1s;
+        width: 410px;
+    }
+}
